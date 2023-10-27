@@ -3,6 +3,6 @@ function getFormvalue() {
 	var fname = document.getElementById("fname").value;
 	var lname = document.getElementById("lname").value;
 	
-	window.alert(`${fname+lname}`);
+	window.alert(`${fname+" "+lname}`);
 
 }
